@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducaTec - Depoimentos</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilo-depoimento.css">
+    <link rel="shortcut icon" type="imagex/png" href="./images-2/grafico.png">
+
+</head>
+
+<body>
+    <section class="Sobre-nos"><!--Iniciando Principal-->
+        
+        <div class="Centro"><!--Abrindo Centro-->
+
+            <header class="Cabecalho"><!-- Abrindo Header -->
+                
+                <div class="Icones"><!-- Abrindo Icones -->
+
+                    <a href="https://facebook.com" target="blank"><i class="fa fa-facebook-square"></i></a>
+
+                    <a href="https://instagram.com" target="blank"><i class="fa fa-instagram"></i></a>
+
+                </div><!-- Fechando Icones --> 
+
+                <div class="clear"></div>
+
+                <div class="Logo">
+
+                    EducaTec
+
+                </div>
+
+                <nav class="Desktop">
+
+                    <ul>
+
+                        <li><a href="Index.html">Inicio</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="corpo-docente.html">Corpo Docente</a></li>
+                        <li><a href="#">Depoimentos</a></li>
+                        <li><a href="declaração.html">Por que nós?</a></li>
+                        
+
+                    </ul>
+
+                </nav><!-- Fechando Desktop -->
+
+                <nav class="Mobile">
+
+                    <i class="fa fa-bars"></i>
+
+                    <ul>
+
+                        <li><a href="Index.html">Inicio</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="corpo-docente.html">Corpo Docente</a></li>
+                        <li><a href="#">Depoimentos</a></li>
+                        <li><a href="declaração.html">Por que nós?</a></li>
+
+                    </ul>
+
+                </nav><!-- Fechando Mobile -->
+
+                <div class="clear"></div>
+
+            </header><!-- Fechando Header -->
+            
+            <div class="Conteudo-Cabecalho">
+
+                <div class="clear"></div>
+
+                <h2><span>Depoimentos</span></h2>
+                
+                <p>
+
+                    Conheça um pouco mais sobre nossa equipe!
+                
+                </p>
+
+                <div class="div-imagem-principal">
+                    
+                    
+                    <img class="imagem-texto" src="images/pexels-photo-1181243.jpeg">
+
+                    <p class="imagem-descricao">
+                        
+                        Nossa equipe a mais de 50 anos trabalhando para formar futuros profissionais de respeito para o mercado de trabalho.
+
+                    </p>
+
+                </div>
+
+            </div> <!--Fechando Conteudo Cabeacario-->
+
+            <div class="depoimentos">
+
+                <img src="images/1.jpg">
+
+                <p>“A experiência e seriedade dos profissionais da EducaTec são cruciais para a execução do projeto de transição e alavancagem de carreira. O método robusto associado ao foco no capital humano propiciaram a reflexão sobre a trajetória profissional dos alunos, mas principalmente, sobre como identificar, direcionar, construir e concretizar os seus objetivos.”<br> <span class="nomes">Bruno Gonçalves - Diretor Regional - EducaTec (SP)</span></p>
+
+            </div>
+
+            <div class="depoimentos">
+
+                <img src="images/2.jpg">
+
+                <p>"O planejamento de carreira e a condução de todo o projeto tiveram importância ímpar para o êxito do trabalho, principalmente porque o aprendizado de como cuidar desse processo, desde as técnicas sobre como abordar cada aspecto, como procurar uma posição no mercado, como se apresentar como um potencial candidato para uma oportunidade."<br> <span class="nomes">Paulo Gustavo Alcantra - Bibliotecario - EducaTec (SP)</span></p>
+
+            </div>
+
+            <div class="depoimentos">
+
+                <img src="images/3.jpg">
+
+                <p>"O grande diferencial do trabalho desenvolvido pela EducaTec estão na metodologia e nas ferramentas utilizadas nos processos, além da forte rede de contatos que mantém." <br><span class="nomes">Carlos Eduardo Dantas - Coordenador Administrativo - EducaTec (RJ)</span></p>
+
+            </div>
+
+            <div class="depoimentos">
+
+                <img src="images/5.jpg">
+
+                <p>“ O grande diferencial da EducaTec está na qualificação, seriedade de sua equipe e na metodologia empregada em todos os processos. Vivenciar todas as etapas e poder ver novos caminhos, com a orientação desses profissionais, foram de suma importância na tomada de decisão de migrar de uma carreira corporativa para o desafio de me tornar educadora. " <br><span class="nomes">Luciana Castro - Professora da EducaTec (MG)</span></p>
+
+            </div>
+
+            <div class="depoimentos">
+
+                <img src="images/4.jpg">
+
+                <p>“A Cooredenação da equipe da EducaTec, em especial o trabalho de aconselhamento, me ajudou a identificar de forma estratégica quais competências e conhecimentos aprimorar e, ao mesmo tempo, ampliar minha visão sobre potenciais novos caminhos e alternativas de carreira.” <br><span class="nomes">Ricardo Gomes - Aluno de Desenvolvimentos de Sistemas da EducaTec (SP)</span></p>
+
+            </div>
+
+        </div> <!--Fechando Centro-->
+
+    </section><!--Fechando Principal-->
+
+    
+    <footer class="rodape">
+
+        <p>Todos os direitos reservados - EducaTec Brasil</p>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script>
+
+        $(function(){
+
+            $('nav.Mobile i').click(function(){
+
+                var clicando = $(this).parent().find('ul');
+                if(clicando.is(':visible') == false){
+
+                    clicando.fadeIn();
+
+                }
+                else{
+
+                    clicando.fadeOut();
+
+                }
+
+            })
+
+        })
+
+    </script>
+
+</body>
+</html>

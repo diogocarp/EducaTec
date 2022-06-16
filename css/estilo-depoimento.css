@@ -1,0 +1,134 @@
+/* Segundo Css - Sobre nós */
+
+
+
+.div-imagem-principal{
+
+    width: 45%;
+    float: right;
+   
+
+
+}
+
+
+.div-imagem-principal img{
+
+
+    width: 100%;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.418);
+    
+
+
+
+
+}
+
+.Conteudo-Cabecalho{
+
+    max-width: 100% !important;
+    
+
+
+}
+
+section.Sobre-nos{
+
+    position: relative;
+    background-image: url('../images/pexels-photo-3153198.jpeg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 15px 0;
+    min-height: 92.5%;
+    background-attachment: fixed;
+
+}
+
+section.Sobre-nos header{
+
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    z-index: 2;
+
+
+
+}
+
+
+.depoimentos{
+
+    width: 40%;
+    padding-bottom: 60px;
+        
+
+
+}
+
+.depoimentos img{
+
+    width: 20%;
+    float: right;
+    border-radius: 50%;
+    
+   
+
+
+}
+
+.depoimentos p{
+
+    color: white;
+    font-size: 15px;
+    
+
+}
+
+.nomes{
+
+    color: lightseagreen;
+    font-size: 20px;
+
+
+
+}
+
+
+
+@media screen and (max-width:680px){
+
+    .div-imagem-principal{
+
+        float: none;
+        width: 90%;
+        padding-left: 10px;
+
+
+    }
+
+    .depoimentos{
+
+        width: 100%;
+        padding-bottom: 60px;
+            
+    
+    
+    }
+    
+    .depoimentos img{
+    
+        width: 20%;
+        float: right;
+        
+       
+    
+    
+    }
+
+    
+
+
+}
+
+

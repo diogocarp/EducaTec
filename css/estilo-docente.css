@@ -1,0 +1,64 @@
+/* Declarando configurações base da section */
+
+section.docente-principal{
+
+    position: relative;
+    background-image: url('../images/equipe.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 15px 0;
+    min-height: 92.5%;
+    background-attachment: fixed;
+
+}
+
+section.docente-principal header{
+
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    z-index: 2;
+
+
+
+}
+
+/* Display para individualizar cada elemnto */
+.corpo-docente{
+
+    display: block;
+    
+
+
+}
+
+/* Configurando divs */
+
+.corpo-docente div{
+
+    padding-left: 20%;
+    padding-top: 5%;
+
+
+}
+
+/* Configurando imagens  e texto da div*/
+
+.corpo-docente img{
+
+    width: 20%;
+    border-radius: 50%;
+
+
+}
+
+.corpo-docente p{
+
+    color: aquamarine;
+    font-size: 25px;
+
+
+
+}
+

@@ -1,0 +1,701 @@
+/* Declarando configurações base da do html */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+
+    height: 100%;
+
+}
+
+/* Classe auxiliares */
+
+section.Principal{
+
+    position: relative;
+    background-image: url('../images/pexels-kampus-production-5940721.jpg') ;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 15px 0;
+    min-height: 92.5%;
+    background-attachment: fixed;
+
+}
+
+
+
+
+/* Confirando div centro */
+.Centro{
+
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 2%;
+
+
+
+
+}
+
+/* adicionando função da div clear */
+
+.clear{
+
+    clear: both;
+
+
+
+}
+
+/* Configurando div transparencia  */
+
+
+.Transparencia{
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.7) ;
+
+
+}
+
+/* Configurando header */
+
+section.Principal header{
+
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    z-index: 2;
+
+
+
+}
+
+/* Configurando e estilizando icones e logo */
+
+.Icones{
+
+    float: right;
+
+
+}
+
+.Icones a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: bold;
+
+}
+
+.Logo{
+
+    margin-top: 20px;
+    float: left;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+
+
+
+}
+
+/* Configurando navbar para desktop */
+
+nav.Desktop{
+
+    margin-top: 17px;
+    float: right;
+
+
+
+}
+
+nav.Desktop ul{
+
+    list-style-type: none;
+
+
+
+
+}
+
+nav.Desktop li{
+
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 19px;
+    font-weight: lighter;
+
+
+}
+
+nav.Desktop a{
+
+
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+
+nav.Desktop a:hover{
+
+
+    color: lightseagreen;
+    border-bottom: 1px solid lightseagreen;
+    font-weight: bold;
+
+
+
+
+}
+
+/* Configurando navbar para dispositivos moveis */
+
+nav.Mobile i{
+
+    display: none;
+    position: relative;
+    top: 23px;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+
+}
+
+nav.Mobile ul{
+
+
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 94px;
+    background: white;
+    list-style-type: none;
+
+
+}
+
+nav.Mobile li{
+
+    font-weight: lighter;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 8px 0;
+
+}
+
+nav.Mobile a{
+
+    display: none;
+    display: block;
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+
+}
+
+/* configurando e estilizando cabeçario */
+
+.Conteudo-Cabecalho{
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+    margin: 100px 0;
+
+
+
+}
+
+.Conteudo-Cabecalho h2{
+
+    color: white;
+    font-weight: normal;
+    font-size: 41px;
+
+}
+
+.Conteudo-Cabecalho h2 > span{
+
+    color: lightseagreen;
+
+
+
+
+}
+
+
+.Conteudo-Cabecalho p{
+
+    color: white;
+    margin-top: 22px ;
+    font-size: 18px;
+
+
+
+
+
+
+}
+
+.Conteudo-Cabecalho a{
+
+    display:block;
+    width: 180px;
+    height: 45px;
+    background: lightseagreen;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 19px;
+    border-radius: 25px;
+    line-height: 45px;
+
+}
+
+/* Configurando div cursos */
+
+.Chamada-Cursos{
+
+    width: 100%;
+    text-align: center;
+    padding: 27px 2%;
+    background: black;
+
+}
+
+.Chamada-Cursos h2{
+
+    display: inline-block;
+    border-bottom: 1px solid lightseagreen;
+    color:white;
+    font-size: 22px;
+    text-transform: uppercase;
+
+
+
+
+}
+
+/* Configurando section box-cursos e as div suas internas */
+
+.Box-Cursos{
+
+    padding: 40px 0;
+
+
+
+}
+
+
+.Box-Cursos > .Centro{
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+}
+
+
+.Box-Cursos-Individual{
+    
+    width: 33.3%;
+    padding: 0 40px;
+
+
+
+
+}
+
+.Box-Cursos-Conteudo{
+
+    border: 1px solid black;
+    box-shadow: 10px 9px 5px -8px rgba(0, 0, 0, 0.7);
+    min-height: 300px;
+
+
+}
+
+.Box-Cursos-Individual h2{
+
+    background: lightseagreen;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    font-weight: lighter;
+
+
+
+}
+
+
+.Box-Cursos-Individual p{
+
+    margin-left: 20px;
+    color: black;
+    font-size: 17px;
+    margin-top: 9px;
+
+}
+
+.Pontos-Cursos{
+
+    padding: 8px 0 15px 0;
+
+
+
+}
+
+.Preco{
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 10px;
+
+
+}
+
+.Preco h2{
+
+    font-size: 25px;
+    color: gray;
+    padding: 0 20px;
+    background-color:transparent ;
+    display: inline-block;
+    border-bottom: 1px solid black ;
+    
+}
+
+/* Configurando e estilizando section sobre */
+
+section.Sobre{
+
+    position: relative;
+    width: 100%;
+    padding: 40px 0;
+    min-height: 300px;
+    background-image: url(../images/pexels-luis-gomes-546819.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+.comprar{
+
+    width: 60%;
+    
+
+
+}
+
+.botao {
+
+   background-color: transparent;
+   border: none;
+
+
+}
+
+.comprar img:hover{
+
+    opacity: 20%;
+
+}
+
+
+section.Sobre > .Centro{
+
+    position: relative;
+    max-width: 960px;
+    color: white;
+
+
+
+}
+
+section.Sobre h2{
+
+    text-align: center;
+
+}
+
+section.Sobre p{
+
+    margin-top: 15px;
+    text-align:center ;
+
+
+}
+
+/* Configurando section info e suas divs internas */
+
+section.Section-Info{
+
+    padding: 30px 0;
+
+
+}
+
+section.Section-Info h2{
+
+    position: relative;
+    color: #777;
+
+
+}
+
+.T50{
+    
+    float: left;
+    width: 50%;
+    padding: 0 20px;
+    margin: 30px 0;
+
+}
+
+section.Section-Info h2 > .Borda-Efeito{
+
+    width: 220px;
+    height: 2px;
+    background: aquamarine;
+    position: absolute;
+    transition: 0.5s;
+
+}
+
+
+section.Section-Info h2:hover > .Borda-Efeito{
+
+    width: 520px;
+
+
+
+}
+
+.Contato form{
+
+    margin-top: 15px;
+
+
+}
+
+.Contato input:not([type="submit"]){
+
+    width: 100%;
+    height: 40px;
+    font-size:15px;
+    border: 1px solid #ccc;
+    display: block;
+    padding-left: 8px;
+    outline: none;
+    margin-top: 10px;
+
+
+}
+
+
+.Section-Info{
+
+    background-color: rgba(0, 0, 0, 0.849);
+
+
+
+
+}
+
+.texto{
+
+    color: white;
+
+}
+
+.enviar{
+
+    width: 200px;
+    height: 40px;
+
+
+
+
+}
+
+.Contato input:hover[type="submit"]{
+
+
+    background-color:rgba(50, 156, 146, 0.562);
+    cursor: pointer;
+    color: white;
+    
+    
+
+}
+
+.Contato input[type="submit"]{
+
+    border-radius: 30px;
+    margin-top: 15px;
+
+
+
+}
+
+.Contato textarea{
+
+    width: 100%;
+    height: 40px;
+}
+
+.Box-Cursos{
+
+
+    background-color: rgba(43, 43, 43, 0.849);
+
+}
+
+.Box-Cursos-Conteudo{
+
+    background-color: white ;
+
+
+
+}
+
+/* Configurando area de contato */
+
+.Contato textarea{
+
+    font-size: 15px;
+    width: 100%;
+    height: 120px;
+    border: 1px solid #777;
+    padding: 8px;
+    margin-top: 10px;
+    resize: none;
+
+
+}
+
+.Time > .T50{
+
+    width: 100%;
+    margin: 15px 1%;
+
+} 
+
+.equipe-Individual{
+
+    padding: 10px 8px;
+    border: 1px solid #777;
+    min-height: 140px;
+    padding-bottom: 30px;
+    box-shadow: 10px 9px 5px -8px rgba(0, 0, 0, 0.7);
+
+
+
+}
+
+
+.Topo-Box-Usuario{
+
+    padding-bottom: 10px;
+    border-bottom: 1px solid #777;
+
+
+
+
+}
+
+.Box-Avatar{
+
+
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ccc;
+    vertical-align: middle;
+
+
+
+
+}
+
+
+.Info-Usuario{
+    
+    display: inline-block;
+    padding: 8px;
+    vertical-align: middle;
+
+
+
+
+}
+
+/* Configurando footer */
+
+.rodape{
+
+    background: black;
+    color: white;
+    width: 100%;
+    padding: 10px 2%;
+    text-align: center;
+
+
+
+}
+
+/* Iniciando responsividade */
+
+@media screen and (max-width: 768px) {
+
+    nav.Mobile i{
+
+        display: block;
+        float: right;
+
+    }
+
+    nav.Desktop{
+
+        display: none;
+
+
+    }
+
+    .Box-Cursos-Individual{
+
+        width: 100%;
+        margin: 10px 0;
+
+
+    }
+    
+    .T50{
+
+        width: 100%;
+
+
+
+    }
+
+    
+}

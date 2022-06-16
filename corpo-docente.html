@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducaTec - Corpo Docente</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilo-docente.css">
+    <link rel="shortcut icon" type="imagex/png" href="./images-2/grafico.png">
+
+</head>
+
+<body>
+
+<section class="docente-principal">
+
+    <div class="Centro"><!--Abrindo Centro-->
+
+        <header class="Cabecalho"><!-- Abrindo Header -->
+            
+            <div class="Icones"><!-- Abrindo Icones -->
+
+                <a href="https://facebook.com" target="blank"><i class="fa fa-facebook-square"></i></a>
+
+                <a href="https://instagram.com" target="blank"><i class="fa fa-instagram"></i></a>
+
+            </div><!-- Fechando Icones --> 
+
+            <div class="clear"></div>
+
+            <div class="Logo">
+
+                EducaTec
+
+            </div>
+
+            <nav class="Desktop">
+
+                <ul>
+
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="#">Corpo Docente</a></li>
+                    <li><a href="depoimentos.html">Depoimentos</a></li>
+                    <li><a href="declaração.html">Por que nós?</a></li>
+                    
+
+                </ul>
+
+            </nav><!-- Fechando Desktop -->
+
+            <nav class="Mobile">
+
+                <i class="fa fa-bars"></i>
+
+                <ul>
+
+                    <li><a href="Index.html">Inicio</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="#">Corpo Docente</a></li>
+                    <li><a href="depoimentos.html">Depoimentos</a></li>
+                    <li><a href="declaração.html">Por que nós?</a></li>
+
+                </ul>
+
+            </nav><!-- Fechando Mobile -->
+
+            <div class="clear"></div>
+
+        </header><!-- Fechando Header -->
+
+
+    </div>
+
+    <div class="corpo-docente">
+
+        <div>
+    
+            <img src="images/pexels-emmy-e-2381069 (2).jpg" alt="">
+    
+            <p>Carolina Marques Souza</p>
+            <p>Diretora Geral - EducaTec Brasil</p>
+    
+    
+        </div>
+
+        <div>
+    
+            <img src="images/pexels-linkedin-sales-navigator-2182970 (1).jpg" alt="">
+    
+            <p>Marcos Almeida Campos</p>
+            <p>Coordenador Regional e Professor - EducaTec (SP)</p>
+    
+    
+            
+        </div>
+    
+        <div>
+        
+            <img src="images-2/larissa.jpg" alt="">
+    
+            <p>Larissa Argolo Peralta</p>
+            <p>Professora - Desenvolvimento de Sistemas</p>
+    
+    
+            
+        </div>
+    
+        <div>
+    
+            <img src="images-2/3.jpg" alt="">
+    
+            <p>Marlene Mondragão Godoi</p>
+            <p>Professora - Desenhista de Páginas Web</p>
+    
+    
+            
+        </div>
+    
+    
+        <div class="docente">
+    
+            <img src="images-2/5.jpg" alt="">
+    
+            <p>Alfredo Aquino Fraga</p>
+            <p>Bibliotecário e Professor</p>
+    
+    
+            
+        </div>
+    
+        <div class="docente">
+    
+            <img src="images-2/6.jpg" alt="">
+    
+            <p>Alexandro Trindade Loureiro</p>
+            <p>Professor - Telecomunicações</p>
+    
+        </div>
+    
+    </div>
+
+</section>   
+
+<footer class="rodape">
+
+    <p>Todos os direitos reservados - EducaTec Brasil      
+    </p>
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script>
+
+        $(function(){
+
+            $('nav.Mobile i').click(function(){
+
+                var clicando = $(this).parent().find('ul');
+                if(clicando.is(':visible') == false){
+
+                    clicando.fadeIn();
+
+                }
+                else{
+
+                    clicando.fadeOut();
+
+                }
+
+            })
+
+
+        })
+
+</script>
+
+</body>
+</html>

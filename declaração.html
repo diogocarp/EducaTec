@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducaTec - Por que nós?</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/declaracao.css">
+    <link rel="shortcut icon" type="imagex/png" href="./images-2/grafico.png">
+
+
+</head>
+<body>
+
+    <section class="declaracao-principal"><!--Iniciando Principal-->
+        
+        <div class="Centro"><!--Abrindo Centro-->
+
+            <header class="Cabecalho"><!-- Abrindo Header -->
+                
+                <div class="Icones"><!-- Abrindo Icones -->
+
+                    <a href="https://facebook.com" target="blank"><i class="fa fa-facebook-square"></i></a>
+
+                    <a href="https://instagram.com" target="blank"><i class="fa fa-instagram"></i></a>
+
+                </div><!-- Fechando Icones --> 
+
+                <div class="clear"></div>
+
+                <div class="Logo">
+
+                    EducaTec
+
+                </div>
+
+                <nav class="Desktop">
+
+                    <ul>
+
+                        <li><a href="Index.html">Inicio</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="corpo-docente.html">Corpo Docente</a></li>
+                        <li><a href="depoimentos.html">Depoimentos</a></li>
+                        <li><a href="#">Por que nós?</a></li>
+                        
+
+                    </ul>
+
+                </nav><!-- Fechando Desktop -->
+
+                <nav class="Mobile">
+
+                    <i class="fa fa-bars"></i>
+
+                    <ul>
+
+                        <li><a href="Index.html">Inicio</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="corpo-docente.html">Corpo Docente</a></li>
+                        <li><a href="depoimentos.html">Depoimentos</a></li>
+                        <li><a href="#">Por que nós?</a></li>
+
+                    </ul>
+
+                </nav><!-- Fechando Mobile -->
+
+                <div class="clear"></div>
+
+            </header><!-- Fechando Header -->
+        </div>
+
+        <div class="por-que-nos">
+
+            <h1 class="titulo-declaracao">
+                
+                Por que nós?
+
+
+            </h1>
+
+            <p class="texto-declaracao">
+
+                A duas principais razões para realizar um curso deve ser o aprimoramento e o crescimento pessoal e/ou profissional. Isto é, o desejo de sair do atual estágio de conhecimentos e habilidades e evoluir para um novo estágio, abrindo assim novas oportunidades. A EducaTec tem mais de 80 anos formando profissionais para o mercado de trabalho, alunos que, quando terminaram seus cursos, abriram startups, desenvolveram seus proprios negócios, conseguiram oportunidades em outros paises, geraram renda e desenvolveram a economia mundial! Você pode ser o próximo, entrando para a equipe EducaTec você terá os melhores profissionais na ramo da tecnologia como educadores e acessos a um conteúdo exclusivo para alunos da EducaTec. Venha dar o próximo passo na sua carreira, venha mudar o mundo!
+
+            </p>
+
+
+            <div class="org-imagem">
+
+                <div class="imagem-declaracao">
+
+                    <img class="img-dec" src="images/empresa.jpg">
+
+                    <p>Nossas estruturas</p>
+
+
+                </div>
+
+                <div class="imagem-declaracao">
+
+                    <img class="img-dec" src="images/contratado.jpg">
+
+                    <p>Sucesso Profissional!</p>
+
+                </div>
+
+            </div>
+
+            <p class="texto-declaracao">Venha nos conhecer!!<br>
+            Endereço 04134-080
+            Endereço
+            Travessa Dulce Ricardi da Fonseca
+             
+            Bairro
+            Vila Gumercindo
+            Cidade
+            São Paulo
+            Estado
+            SP
+            </p>
+
+
+        </div>
+
+    </section>
+
+    
+
+    <footer class="rodape">
+        <p>Todos os direitos reservados - EducaTec Brasil</p>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script>
+
+        $(function(){
+
+            $('nav.Mobile i').click(function(){
+
+                var clicando = $(this).parent().find('ul');
+                if(clicando.is(':visible') == false){
+
+                    clicando.fadeIn();
+
+                }
+                else{
+
+                    clicando.fadeOut();
+
+                }
+
+                
+
+
+
+            })
+
+
+        })
+
+
+
+
+
+    </script>
+</body>
+</html>
